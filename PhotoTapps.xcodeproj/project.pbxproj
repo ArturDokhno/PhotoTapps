@@ -14,6 +14,7 @@
 		7580AB1027429AD30031F229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7580AB0E27429AD30031F229 /* LaunchScreen.storyboard */; };
 		7580AB1A27429F280031F229 /* PhotoCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7580AB1927429F280031F229 /* PhotoCollectionVC.swift */; };
 		7580AB1C2742B1C00031F229 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7580AB1B2742B1C00031F229 /* PhotoCell.swift */; };
+		75ECA8A227439EF20011FA49 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECA8A127439EF20011FA49 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7580AB1127429AD30031F229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7580AB1927429F280031F229 /* PhotoCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionVC.swift; sourceTree = "<group>"; };
 		7580AB1B2742B1C00031F229 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		75ECA8A127439EF20011FA49 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,9 @@
 			children = (
 				7580AB0327429AD20031F229 /* AppDelegate.swift */,
 				7580AB0527429AD20031F229 /* SceneDelegate.swift */,
-				7580AB1927429F280031F229 /* PhotoCollectionVC.swift */,
 				7580AB1B2742B1C00031F229 /* PhotoCell.swift */,
+				7580AB1927429F280031F229 /* PhotoCollectionVC.swift */,
+				75ECA8A127439EF20011FA49 /* PhotoViewController.swift */,
 				7580AB0927429AD20031F229 /* Main.storyboard */,
 				7580AB0C27429AD30031F229 /* Assets.xcassets */,
 				7580AB0E27429AD30031F229 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				7580AB0427429AD20031F229 /* AppDelegate.swift in Sources */,
 				7580AB1A27429F280031F229 /* PhotoCollectionVC.swift in Sources */,
 				7580AB0627429AD20031F229 /* SceneDelegate.swift in Sources */,
+				75ECA8A227439EF20011FA49 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

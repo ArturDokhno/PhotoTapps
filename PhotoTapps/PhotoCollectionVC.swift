@@ -11,14 +11,10 @@ class PhotoCollectionVC: UICollectionViewController {
     
     let photos = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
     let itemsPerRow: CGFloat = 2
-    let sectionInserts = UIEdgeInsets(top: 20,
-                                      left: 20,
-                                      bottom: 20,
-                                      right: 20)
+    let sectionInserts = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
     }
     
@@ -39,6 +35,14 @@ class PhotoCollectionVC: UICollectionViewController {
         let image = UIImage(named: imageName)
         cell.photoImageView.image = image
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "pickPhotoSegue" {
+            let photoVC = segue.destination as! PhotoViewController
+            let cell = sender as! PhotoCell
+            photoVC.image = cell.photoImageView.image
+        }
     }
     
 }
